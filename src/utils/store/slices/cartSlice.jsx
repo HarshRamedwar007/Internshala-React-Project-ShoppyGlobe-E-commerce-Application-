@@ -72,9 +72,9 @@ const cartSlice = createSlice({
         },
         updateOrderAmount: (state, action) => {
             state.totalAmount = action.payload;
-        }
+        } 
     }
 });
 
-export const { addToCart, removeFromCart, updateOrderAmount } = cartSlice.actions;
+export const { addToCart , removeFromCart, updateOrderAmount } = cartSlice.actions;
 export default cartSlice.reducer;

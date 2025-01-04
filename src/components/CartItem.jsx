@@ -90,7 +90,7 @@
 // export default CartItem;
  
 import { useDispatch } from "react-redux";
-import { decrementItemQuantity, incrementItemQuantity, removeFromCart } from "../utils/store/slices/cartSlice";
+import {     removeFromCart } from "../utils/store/slices/cartSlice";
 
 function CartItem({ data }) {
     const dispatch = useDispatch();

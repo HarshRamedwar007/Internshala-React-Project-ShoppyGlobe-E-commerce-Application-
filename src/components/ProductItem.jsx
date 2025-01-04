@@ -77,7 +77,7 @@
 // export default ProductItem;
 
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, updateOrderAmount } from "../utils/store/slices/cartSlice";
+import { addToCart,   } from "../utils/store/slices/cartSlice";
 import { Link } from "react-router-dom";
 
 function ProductItem({ data }) {
