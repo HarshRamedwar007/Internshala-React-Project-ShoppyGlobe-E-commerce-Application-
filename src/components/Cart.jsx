@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 
 function Cart() {
     const cartItems = useSelector(state => state.cartSlice.cartItems);
-    // const totalAmount = useSelector(state => state.cartSlice.totalAmount);
-    // const discountAmount = useSelector(state => state.cartSlice.totalDiscount);
-    // const grandTotalAmount = useSelector(state => state.cartSlice.grandTotal);
-
+ 
     return (
         <section className="mt-20 min-[500px]:mt-28 px-5">
             <article className="relative">
@@ -22,27 +19,8 @@ function Cart() {
                                 cartItems?.map(item => <CartItem key={item?.id} data={item} />)
                             }
                         </section>
-                        { /* Bill */}
-                        {/* <section className="order-1 min-[850px]:order-2 flex flex-col items-center">
-                            <section className="border-purple-400 border-2 rounded-md px-5 py-5 h-fit">
-                                <article className="text-xl border-b-2 border-purple-400 pb-2 space-y-2">
-                                    <article className="flex justify-between">
-                                        <p>Subtotal</p>
-                                        <p>₹ {totalAmount}</p>
-                                    </article>
-                                    <article className="flex justify-between">
-                                        <p>Discount</p>
-                                        <p>₹ {discountAmount}</p>
-                                    </article>
-                                </article>
-                                <article className="mt-3 space-x-2 flex justify-between text-xl">
-                                    <p>Grand Total</p>
-                                    <p>₹ {grandTotalAmount}</p>
-                                </article>
-                            </section>
-                            <Link to="/checkout"><button className="mt-3 py-1 px-3 text-lg rounded-md bg-purple-700 text-white">Proceed to Payment</button></Link>
-                        </section> */}
-                    </section>
+                    
+                     </section>
                     :
                     // In case cart is empty
                     <section className="mt-10 mb-12 flex flex-col items-center">
