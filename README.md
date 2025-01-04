@@ -9,8 +9,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
     bash
-   git clone https://github.com/mmj030703/Internshala-Project-React-ShoppyGlobe.git
-    
+   git clone https://github.com/HarshRamedwar007/Internshala-React-Project-ShoppyGlobe-E-commerce-Application-.git    
 
 2. Navigate to the project folder:
 
