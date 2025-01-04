@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function Cart() {
     const cartItems = useSelector(state => state.cartSlice.cartItems);
-    const totalAmount = useSelector(state => state.cartSlice.totalAmount);
-    const discountAmount = useSelector(state => state.cartSlice.totalDiscount);
-    const grandTotalAmount = useSelector(state => state.cartSlice.grandTotal);
+    // const totalAmount = useSelector(state => state.cartSlice.totalAmount);
+    // const discountAmount = useSelector(state => state.cartSlice.totalDiscount);
+    // const grandTotalAmount = useSelector(state => state.cartSlice.grandTotal);
 
     return (
         <section className="mt-20 min-[500px]:mt-28 px-5">

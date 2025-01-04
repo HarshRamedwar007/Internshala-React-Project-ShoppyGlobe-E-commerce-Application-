@@ -18,7 +18,7 @@ function Header() {
                     <Link to="/cart">
                         <li className="relative font-semibold">
                             <span className="text-lg text-purple-900">Cart</span>
-                            <span className='absolute -top-2 -right-3 text-lg'>{cartItems.length ? cartItems.length : 0}</span>
+                            <span className='absolute -top-2 -right-3 text-lg'>{cartItems.length}</span>
                         </li>
                     </Link>
                 </ul>
